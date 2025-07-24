@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basic Javascript Logics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section>
+    <h1 class="h1">Change Image Use Javascript</h1>
+    <div class="uper">
+      <div class="uper-img">
+        <img id="bulb" src="./off.gif" alt="" />
+      </div>
+      <div class="uper-btn">
+        <button onclick="document.getElementById('bulb').src='./on.gif'"> BULB ON </button>
+        <button class="button1" onclick="document.getElementById('bulb').src='./off.gif'"> BULB OFF </button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+    <section>
+    <h1 class="h1">Change TEXT Use Javascript</h1>
+    <div class="uper">
+      <div class="uper-text" id="text"> Asalaam-alikum </div>
+      <div class="uper-btn">
+        <button class="b1" onclick="document.getElementById('text').innerHTML='Wellcome'"> Change Text </button>
+        <button class="b1" onclick="document.getElementById('text').innerHTML='Asalaam-alikum'"> Undo Text </button>
+
+      </div>
+    </div>
+  </section>
+
+
+
+      <section>
+    <h1 class="h1">Display None Use Javascript</h1>
+    <div class="uper">
+      <div class="uper-text" id="t1"> SAYLANI</div>
+      <div class="uper-btn">
+        <button class="b1" onclick="document.getElementById('t1').style.display='none';"> Hide Text </button>
+        <button class="b1" onclick="document.getElementById('t1').style.display='flex';"> SEE Text </button>
+      </div>
+    </div>
+  </section>
+
+
+    <h1 class="h1">THANK FOR VISITING</h1>
+
+
+
+</body>
+</html>
